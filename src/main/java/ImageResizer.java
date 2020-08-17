@@ -156,7 +156,7 @@ public class ImageResizer extends JFrame implements Runnable {
 						imagePanel.repaint();
 					}
 				});
-			} catch (IOException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
